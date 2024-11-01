@@ -19,7 +19,7 @@ const SwaggerDocument = {
         in: "header",
       },
     },
-    schemes: ["http", "https"],
+    schemes: ["htts", "http"],
     consumes: ["application/json"],
     produces: ["application/json"],
   },

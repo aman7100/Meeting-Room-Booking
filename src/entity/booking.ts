@@ -4,7 +4,7 @@ import { User } from "./user";
 
 @Entity('booking')
 export class Booking {
-    @ObjectIdColumn()
+    @PrimaryGeneratedColumn()
     id: number
 
     @Column('timestamp')

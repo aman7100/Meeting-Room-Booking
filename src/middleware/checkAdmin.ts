@@ -8,7 +8,6 @@ enum Roles {
 }
 const userRepository = AppDataSource.getRepository(User);
 export const isAdmin= (req:Request,res:Response,next:NextFunction)=>{
-
     const user=req.body.loggedUser;
     if(user.role===Roles.ADMIN){
         next();

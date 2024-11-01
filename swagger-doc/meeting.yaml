@@ -70,7 +70,7 @@ paths:
         500:
           description: Server Error
   /get-room:
-    post:
+    get:
       tags:
         - Room-Account
       description: Get Available Rooms
@@ -159,10 +159,10 @@ definitions: # Schema defination for request body
   get-room:
     properties:
       startDate:
-         type: timestamp
+         type: string
          required: true
       endDate:
-          type: timestamp
+          type: string
           required: true
   new-booking:
     properties:
