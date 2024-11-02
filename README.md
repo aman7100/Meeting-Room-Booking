@@ -12,22 +12,25 @@ This project is a meeting room booking system with live deployment, built using 
 ## Installation 
  
 1. Clone the repository: 
-\`\`\` 
+ ```bash
 git clone https://github.com/aman7100/Meeting-Room-Booking.git
-\`\`\` 
+```
  
 2. Install dependencies: 
-\`\`\` 
-npm install 
-\`\`\` 
+```bash
+npm install
+```
  
 3. Set up your environment variables by creating a \`.env\` file with database credentials, JWT secret, and Swagger URL. 
  
 ## Running the Project 
  
 To start the development server, run: 
-\`\`\` 
-npm run dev 
-\`\`\` 
+```bash
+npm run dev
+```
  
-The server will start on the specified port, and Swagger documentation will be available at \`http://localhost:[PORT]/api-docs\`. 
+The server will start on the specified port, and Swagger documentation will be available at:
+```bash
+http://localhost:[PORT]/api/docs
+```
