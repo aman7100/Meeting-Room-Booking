@@ -15,5 +15,4 @@ const AppDataSource = new DataSource({
   logging: true,
   synchronize: true,
 });
-console.log(process.env.USER,process.env.PASSWORD)
 export default AppDataSource;
