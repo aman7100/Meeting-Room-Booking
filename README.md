@@ -12,26 +12,21 @@ This project is a meeting room booking system with live deployment, built using 
 ## Installation 
  
 1. Clone the repository: 
-\`\`\`bash 
-git clone https://github.com/your-username/meeting-room-booking.git 
+\`\`\` 
+git clone https://github.com/aman7100/Meeting-Room-Booking.git
 \`\`\` 
  
-2. Navigate to the project directory: 
-\`\`\`bash 
-cd meeting-room-booking 
+2. Install dependencies: 
 \`\`\` 
- 
-3. Install dependencies: 
-\`\`\`bash 
 npm install 
 \`\`\` 
  
-4. Set up your environment variables by creating a \`.env\` file with database credentials, JWT secret, and Swagger URL. 
+3. Set up your environment variables by creating a \`.env\` file with database credentials, JWT secret, and Swagger URL. 
  
 ## Running the Project 
  
 To start the development server, run: 
-\`\`\`bash 
+\`\`\` 
 npm run dev 
 \`\`\` 
  
